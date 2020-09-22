@@ -8,6 +8,6 @@ for i in z:
         a+=int(y.count(i)/2)
         
     elif y.count(i)>2:
-        a+=1
+       a+=int(y.count(i)//2)
         
 print(a)
